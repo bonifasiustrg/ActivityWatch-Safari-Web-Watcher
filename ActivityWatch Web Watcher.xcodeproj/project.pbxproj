@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963CF6F12E17BCA600955D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963CF6F02E17BCA600955D97 /* AppDelegate.swift */; };
+		963CF6F32E17BCA600955D97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963CF6F22E17BCA600955D97 /* SceneDelegate.swift */; };
+		963CF6F62E17BCA600955D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6F42E17BCA600955D97 /* LaunchScreen.storyboard */; };
+		963CF6F92E17BCA600955D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6F72E17BCA600955D97 /* Main.storyboard */; };
+		963CF7022E17BCA600955D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963CF7012E17BCA600955D97 /* AppDelegate.swift */; };
+		963CF7052E17BCA600955D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7032E17BCA600955D97 /* Main.storyboard */; };
+		963CF70D2E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 963CF70C2E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		963CF7172E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 963CF7162E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		963CF71D2E17BCA600955D97 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6E02E17BCA400955D97 /* Main.html */; };
+		963CF71E2E17BCA600955D97 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6E02E17BCA400955D97 /* Main.html */; };
+		963CF71F2E17BCA600955D97 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6E22E17BCA400955D97 /* Icon.png */; };
+		963CF7202E17BCA600955D97 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6E22E17BCA400955D97 /* Icon.png */; };
+		963CF7212E17BCA600955D97 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6E32E17BCA400955D97 /* Style.css */; };
+		963CF7222E17BCA600955D97 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6E32E17BCA400955D97 /* Style.css */; };
+		963CF7232E17BCA600955D97 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6E42E17BCA400955D97 /* Script.js */; };
+		963CF7242E17BCA600955D97 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6E42E17BCA400955D97 /* Script.js */; };
+		963CF7252E17BCA600955D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963CF6E52E17BCA400955D97 /* ViewController.swift */; };
+		963CF7262E17BCA600955D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963CF6E52E17BCA400955D97 /* ViewController.swift */; };
+		963CF7272E17BCA600955D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6E62E17BCA600955D97 /* Assets.xcassets */; };
+		963CF7282E17BCA600955D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963CF6E62E17BCA600955D97 /* Assets.xcassets */; };
+		963CF7292E17BCA600955D97 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963CF6E82E17BCA600955D97 /* SafariWebExtensionHandler.swift */; };
+		963CF72A2E17BCA600955D97 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963CF6E82E17BCA600955D97 /* SafariWebExtensionHandler.swift */; };
+		963CF7452E17BCA600955D97 /* logo-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 963CF73C2E17BCA600955D97 /* logo-128.png */; };
+		963CF7462E17BCA600955D97 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 963CF73D2E17BCA600955D97 /* banner.png */; };
+		963CF7472E17BCA600955D97 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 963CF73E2E17BCA600955D97 /* index.css */; };
+		963CF7482E17BCA600955D97 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 963CF73F2E17BCA600955D97 /* _metadata */; };
+		963CF7492E17BCA600955D97 /* index3.css in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7402E17BCA600955D97 /* index3.css */; };
+		963CF74A2E17BCA600955D97 /* index2.css in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7412E17BCA600955D97 /* index2.css */; };
+		963CF74B2E17BCA600955D97 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7422E17BCA600955D97 /* manifest.json */; };
+		963CF74C2E17BCA600955D97 /* storage.js in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7432E17BCA600955D97 /* storage.js */; };
+		963CF74D2E17BCA600955D97 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7442E17BCA600955D97 /* src */; };
+		963CF74E2E17BCA600955D97 /* logo-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 963CF73C2E17BCA600955D97 /* logo-128.png */; };
+		963CF74F2E17BCA600955D97 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 963CF73D2E17BCA600955D97 /* banner.png */; };
+		963CF7502E17BCA600955D97 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 963CF73E2E17BCA600955D97 /* index.css */; };
+		963CF7512E17BCA600955D97 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 963CF73F2E17BCA600955D97 /* _metadata */; };
+		963CF7522E17BCA600955D97 /* index3.css in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7402E17BCA600955D97 /* index3.css */; };
+		963CF7532E17BCA600955D97 /* index2.css in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7412E17BCA600955D97 /* index2.css */; };
+		963CF7542E17BCA600955D97 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7422E17BCA600955D97 /* manifest.json */; };
+		963CF7552E17BCA600955D97 /* storage.js in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7432E17BCA600955D97 /* storage.js */; };
+		963CF7562E17BCA600955D97 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 963CF7442E17BCA600955D97 /* src */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963CF70E2E17BCA600955D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963CF6DA2E17BCA400955D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963CF70B2E17BCA600955D97;
+			remoteInfo = "ActivityWatch Web Watcher Extension (iOS)";
+		};
+		963CF7182E17BCA600955D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963CF6DA2E17BCA400955D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963CF7152E17BCA600955D97;
+			remoteInfo = "ActivityWatch Web Watcher Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		963CF7302E17BCA600955D97 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				963CF70D2E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963CF7372E17BCA600955D97 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				963CF7172E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		963CF6E12E17BCA400955D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		963CF6E22E17BCA400955D97 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		963CF6E32E17BCA400955D97 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		963CF6E42E17BCA400955D97 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		963CF6E52E17BCA400955D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		963CF6E62E17BCA600955D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963CF6E82E17BCA600955D97 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		963CF6ED2E17BCA600955D97 /* ActivityWatch Web Watcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ActivityWatch Web Watcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963CF6F02E17BCA600955D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963CF6F22E17BCA600955D97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		963CF6F52E17BCA600955D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		963CF6F82E17BCA600955D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963CF6FA2E17BCA600955D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963CF6FF2E17BCA600955D97 /* ActivityWatch Web Watcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ActivityWatch Web Watcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963CF7012E17BCA600955D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963CF7042E17BCA600955D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963CF7062E17BCA600955D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963CF7072E17BCA600955D97 /* ActivityWatch Web Watcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ActivityWatch Web Watcher.entitlements"; sourceTree = "<group>"; };
+		963CF70C2E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ActivityWatch Web Watcher Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963CF7112E17BCA600955D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963CF7162E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ActivityWatch Web Watcher Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963CF71B2E17BCA600955D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963CF71C2E17BCA600955D97 /* ActivityWatch Web Watcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ActivityWatch Web Watcher.entitlements"; sourceTree = "<group>"; };
+		963CF73C2E17BCA600955D97 /* logo-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-128.png"; path = "../../Desktop/chrome-ext/0.5.3_0/logo-128.png"; sourceTree = "<group>"; };
+		963CF73D2E17BCA600955D97 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banner.png; path = "../../Desktop/chrome-ext/0.5.3_0/banner.png"; sourceTree = "<group>"; };
+		963CF73E2E17BCA600955D97 /* index.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = index.css; path = "../../Desktop/chrome-ext/0.5.3_0/index.css"; sourceTree = "<group>"; };
+		963CF73F2E17BCA600955D97 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = "../../Desktop/chrome-ext/0.5.3_0/_metadata"; sourceTree = "<group>"; };
+		963CF7402E17BCA600955D97 /* index3.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = index3.css; path = "../../Desktop/chrome-ext/0.5.3_0/index3.css"; sourceTree = "<group>"; };
+		963CF7412E17BCA600955D97 /* index2.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = index2.css; path = "../../Desktop/chrome-ext/0.5.3_0/index2.css"; sourceTree = "<group>"; };
+		963CF7422E17BCA600955D97 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Desktop/chrome-ext/0.5.3_0/manifest.json"; sourceTree = "<group>"; };
+		963CF7432E17BCA600955D97 /* storage.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = storage.js; path = "../../Desktop/chrome-ext/0.5.3_0/storage.js"; sourceTree = "<group>"; };
+		963CF7442E17BCA600955D97 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = "../../Desktop/chrome-ext/0.5.3_0/src"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963CF6EA2E17BCA600955D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963CF6FC2E17BCA600955D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963CF7092E17BCA600955D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963CF7132E17BCA600955D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963CF6D92E17BCA400955D97 = {
+			isa = PBXGroup;
+			children = (
+				963CF6DE2E17BCA400955D97 /* Shared (App) */,
+				963CF6E72E17BCA600955D97 /* Shared (Extension) */,
+				963CF6EF2E17BCA600955D97 /* iOS (App) */,
+				963CF7002E17BCA600955D97 /* macOS (App) */,
+				963CF7102E17BCA600955D97 /* iOS (Extension) */,
+				963CF71A2E17BCA600955D97 /* macOS (Extension) */,
+				963CF6EE2E17BCA600955D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963CF6DE2E17BCA400955D97 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				963CF6E52E17BCA400955D97 /* ViewController.swift */,
+				963CF6E62E17BCA600955D97 /* Assets.xcassets */,
+				963CF6DF2E17BCA400955D97 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		963CF6DF2E17BCA400955D97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				963CF6E02E17BCA400955D97 /* Main.html */,
+				963CF6E22E17BCA400955D97 /* Icon.png */,
+				963CF6E32E17BCA400955D97 /* Style.css */,
+				963CF6E42E17BCA400955D97 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		963CF6E72E17BCA600955D97 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				963CF73B2E17BCA600955D97 /* Resources */,
+				963CF6E82E17BCA600955D97 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		963CF6EE2E17BCA600955D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963CF6ED2E17BCA600955D97 /* ActivityWatch Web Watcher.app */,
+				963CF6FF2E17BCA600955D97 /* ActivityWatch Web Watcher.app */,
+				963CF70C2E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex */,
+				963CF7162E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963CF6EF2E17BCA600955D97 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				963CF6F02E17BCA600955D97 /* AppDelegate.swift */,
+				963CF6F22E17BCA600955D97 /* SceneDelegate.swift */,
+				963CF6F42E17BCA600955D97 /* LaunchScreen.storyboard */,
+				963CF6F72E17BCA600955D97 /* Main.storyboard */,
+				963CF6FA2E17BCA600955D97 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		963CF7002E17BCA600955D97 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				963CF7012E17BCA600955D97 /* AppDelegate.swift */,
+				963CF7032E17BCA600955D97 /* Main.storyboard */,
+				963CF7062E17BCA600955D97 /* Info.plist */,
+				963CF7072E17BCA600955D97 /* ActivityWatch Web Watcher.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		963CF7102E17BCA600955D97 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				963CF7112E17BCA600955D97 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		963CF71A2E17BCA600955D97 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				963CF71B2E17BCA600955D97 /* Info.plist */,
+				963CF71C2E17BCA600955D97 /* ActivityWatch Web Watcher.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		963CF73B2E17BCA600955D97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				963CF73C2E17BCA600955D97 /* logo-128.png */,
+				963CF73D2E17BCA600955D97 /* banner.png */,
+				963CF73E2E17BCA600955D97 /* index.css */,
+				963CF73F2E17BCA600955D97 /* _metadata */,
+				963CF7402E17BCA600955D97 /* index3.css */,
+				963CF7412E17BCA600955D97 /* index2.css */,
+				963CF7422E17BCA600955D97 /* manifest.json */,
+				963CF7432E17BCA600955D97 /* storage.js */,
+				963CF7442E17BCA600955D97 /* src */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963CF6EC2E17BCA600955D97 /* ActivityWatch Web Watcher (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963CF7312E17BCA600955D97 /* Build configuration list for PBXNativeTarget "ActivityWatch Web Watcher (iOS)" */;
+			buildPhases = (
+				963CF6E92E17BCA600955D97 /* Sources */,
+				963CF6EA2E17BCA600955D97 /* Frameworks */,
+				963CF6EB2E17BCA600955D97 /* Resources */,
+				963CF7302E17BCA600955D97 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963CF70F2E17BCA600955D97 /* PBXTargetDependency */,
+			);
+			name = "ActivityWatch Web Watcher (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "ActivityWatch Web Watcher (iOS)";
+			productReference = 963CF6ED2E17BCA600955D97 /* ActivityWatch Web Watcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		963CF6FE2E17BCA600955D97 /* ActivityWatch Web Watcher (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963CF7382E17BCA600955D97 /* Build configuration list for PBXNativeTarget "ActivityWatch Web Watcher (macOS)" */;
+			buildPhases = (
+				963CF6FB2E17BCA600955D97 /* Sources */,
+				963CF6FC2E17BCA600955D97 /* Frameworks */,
+				963CF6FD2E17BCA600955D97 /* Resources */,
+				963CF7372E17BCA600955D97 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963CF7192E17BCA600955D97 /* PBXTargetDependency */,
+			);
+			name = "ActivityWatch Web Watcher (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "ActivityWatch Web Watcher (macOS)";
+			productReference = 963CF6FF2E17BCA600955D97 /* ActivityWatch Web Watcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		963CF70B2E17BCA600955D97 /* ActivityWatch Web Watcher Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963CF72D2E17BCA600955D97 /* Build configuration list for PBXNativeTarget "ActivityWatch Web Watcher Extension (iOS)" */;
+			buildPhases = (
+				963CF7082E17BCA600955D97 /* Sources */,
+				963CF7092E17BCA600955D97 /* Frameworks */,
+				963CF70A2E17BCA600955D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActivityWatch Web Watcher Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "ActivityWatch Web Watcher Extension (iOS)";
+			productReference = 963CF70C2E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		963CF7152E17BCA600955D97 /* ActivityWatch Web Watcher Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963CF7342E17BCA600955D97 /* Build configuration list for PBXNativeTarget "ActivityWatch Web Watcher Extension (macOS)" */;
+			buildPhases = (
+				963CF7122E17BCA600955D97 /* Sources */,
+				963CF7132E17BCA600955D97 /* Frameworks */,
+				963CF7142E17BCA600955D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActivityWatch Web Watcher Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "ActivityWatch Web Watcher Extension (macOS)";
+			productReference = 963CF7162E17BCA600955D97 /* ActivityWatch Web Watcher Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963CF6DA2E17BCA400955D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					963CF6EC2E17BCA600955D97 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					963CF6FE2E17BCA600955D97 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					963CF70B2E17BCA600955D97 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					963CF7152E17BCA600955D97 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 963CF6DD2E17BCA400955D97 /* Build configuration list for PBXProject "ActivityWatch Web Watcher" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963CF6D92E17BCA400955D97;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 963CF6EE2E17BCA600955D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963CF6EC2E17BCA600955D97 /* ActivityWatch Web Watcher (iOS) */,
+				963CF6FE2E17BCA600955D97 /* ActivityWatch Web Watcher (macOS) */,
+				963CF70B2E17BCA600955D97 /* ActivityWatch Web Watcher Extension (iOS) */,
+				963CF7152E17BCA600955D97 /* ActivityWatch Web Watcher Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963CF6EB2E17BCA600955D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963CF71F2E17BCA600955D97 /* Icon.png in Resources */,
+				963CF6F62E17BCA600955D97 /* LaunchScreen.storyboard in Resources */,
+				963CF71D2E17BCA600955D97 /* Main.html in Resources */,
+				963CF7232E17BCA600955D97 /* Script.js in Resources */,
+				963CF7272E17BCA600955D97 /* Assets.xcassets in Resources */,
+				963CF6F92E17BCA600955D97 /* Main.storyboard in Resources */,
+				963CF7212E17BCA600955D97 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963CF6FD2E17BCA600955D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963CF7202E17BCA600955D97 /* Icon.png in Resources */,
+				963CF7222E17BCA600955D97 /* Style.css in Resources */,
+				963CF7052E17BCA600955D97 /* Main.storyboard in Resources */,
+				963CF7242E17BCA600955D97 /* Script.js in Resources */,
+				963CF7282E17BCA600955D97 /* Assets.xcassets in Resources */,
+				963CF71E2E17BCA600955D97 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963CF70A2E17BCA600955D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963CF7562E17BCA600955D97 /* src in Resources */,
+				963CF7522E17BCA600955D97 /* index3.css in Resources */,
+				963CF7542E17BCA600955D97 /* manifest.json in Resources */,
+				963CF7552E17BCA600955D97 /* storage.js in Resources */,
+				963CF74E2E17BCA600955D97 /* logo-128.png in Resources */,
+				963CF7512E17BCA600955D97 /* _metadata in Resources */,
+				963CF74F2E17BCA600955D97 /* banner.png in Resources */,
+				963CF7502E17BCA600955D97 /* index.css in Resources */,
+				963CF7532E17BCA600955D97 /* index2.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963CF7142E17BCA600955D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963CF74D2E17BCA600955D97 /* src in Resources */,
+				963CF7492E17BCA600955D97 /* index3.css in Resources */,
+				963CF74B2E17BCA600955D97 /* manifest.json in Resources */,
+				963CF74C2E17BCA600955D97 /* storage.js in Resources */,
+				963CF7452E17BCA600955D97 /* logo-128.png in Resources */,
+				963CF7482E17BCA600955D97 /* _metadata in Resources */,
+				963CF7462E17BCA600955D97 /* banner.png in Resources */,
+				963CF7472E17BCA600955D97 /* index.css in Resources */,
+				963CF74A2E17BCA600955D97 /* index2.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963CF6E92E17BCA600955D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963CF7252E17BCA600955D97 /* ViewController.swift in Sources */,
+				963CF6F12E17BCA600955D97 /* AppDelegate.swift in Sources */,
+				963CF6F32E17BCA600955D97 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963CF6FB2E17BCA600955D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963CF7262E17BCA600955D97 /* ViewController.swift in Sources */,
+				963CF7022E17BCA600955D97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963CF7082E17BCA600955D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963CF7292E17BCA600955D97 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963CF7122E17BCA600955D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963CF72A2E17BCA600955D97 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		963CF70F2E17BCA600955D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963CF70B2E17BCA600955D97 /* ActivityWatch Web Watcher Extension (iOS) */;
+			targetProxy = 963CF70E2E17BCA600955D97 /* PBXContainerItemProxy */;
+		};
+		963CF7192E17BCA600955D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963CF7152E17BCA600955D97 /* ActivityWatch Web Watcher Extension (macOS) */;
+			targetProxy = 963CF7182E17BCA600955D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		963CF6E02E17BCA400955D97 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963CF6E12E17BCA400955D97 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		963CF6F42E17BCA600955D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963CF6F52E17BCA600955D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		963CF6F72E17BCA600955D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963CF6F82E17BCA600955D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		963CF7032E17BCA600955D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963CF7042E17BCA600955D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963CF72B2E17BCA600955D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		963CF72C2E17BCA600955D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		963CF72E2E17BCA600955D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ActivityWatch Web Watcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.ActivityWatch-Web-Watcher.Extension";
+				PRODUCT_NAME = "ActivityWatch Web Watcher Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		963CF72F2E17BCA600955D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ActivityWatch Web Watcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.ActivityWatch-Web-Watcher.Extension";
+				PRODUCT_NAME = "ActivityWatch Web Watcher Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963CF7322E17BCA600955D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ActivityWatch Web Watcher";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.ActivityWatch-Web-Watcher";
+				PRODUCT_NAME = "ActivityWatch Web Watcher";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		963CF7332E17BCA600955D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ActivityWatch Web Watcher";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.ActivityWatch-Web-Watcher";
+				PRODUCT_NAME = "ActivityWatch Web Watcher";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963CF7352E17BCA600955D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ActivityWatch Web Watcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ActivityWatch Web Watcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.ActivityWatch-Web-Watcher.Extension";
+				PRODUCT_NAME = "ActivityWatch Web Watcher Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		963CF7362E17BCA600955D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ActivityWatch Web Watcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ActivityWatch Web Watcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.ActivityWatch-Web-Watcher.Extension";
+				PRODUCT_NAME = "ActivityWatch Web Watcher Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		963CF7392E17BCA600955D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ActivityWatch Web Watcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ActivityWatch Web Watcher";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.ActivityWatch-Web-Watcher";
+				PRODUCT_NAME = "ActivityWatch Web Watcher";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		963CF73A2E17BCA600955D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ActivityWatch Web Watcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ActivityWatch Web Watcher";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.ActivityWatch-Web-Watcher";
+				PRODUCT_NAME = "ActivityWatch Web Watcher";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963CF6DD2E17BCA400955D97 /* Build configuration list for PBXProject "ActivityWatch Web Watcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963CF72B2E17BCA600955D97 /* Debug */,
+				963CF72C2E17BCA600955D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963CF72D2E17BCA600955D97 /* Build configuration list for PBXNativeTarget "ActivityWatch Web Watcher Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963CF72E2E17BCA600955D97 /* Debug */,
+				963CF72F2E17BCA600955D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963CF7312E17BCA600955D97 /* Build configuration list for PBXNativeTarget "ActivityWatch Web Watcher (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963CF7322E17BCA600955D97 /* Debug */,
+				963CF7332E17BCA600955D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963CF7342E17BCA600955D97 /* Build configuration list for PBXNativeTarget "ActivityWatch Web Watcher Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963CF7352E17BCA600955D97 /* Debug */,
+				963CF7362E17BCA600955D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963CF7382E17BCA600955D97 /* Build configuration list for PBXNativeTarget "ActivityWatch Web Watcher (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963CF7392E17BCA600955D97 /* Debug */,
+				963CF73A2E17BCA600955D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963CF6DA2E17BCA400955D97 /* Project object */;
+}
