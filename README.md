@@ -1,6 +1,6 @@
 # 🧭 ActivityWatch Safari Web Watcher
 
-A Safari Web Extension for [ActivityWatch](https://github.com/ActivityWatch/activitywatch), converted from the original Chrome extension version.
+A Safari Web Extension for [ActivityWatch](https://github.com/ActivityWatch/activitywatch), converted from the original [Chrome extension version](https://github.com/ActivityWatch/aw-watcher-web).
 
 ---
 
@@ -9,7 +9,7 @@ A Safari Web Extension for [ActivityWatch](https://github.com/ActivityWatch/acti
 This extension was developed by following Apple’s official guide:  
 [Converting a Web Extension for Safari](https://developer.apple.com/documentation/safariservices/converting-a-web-extension-for-safari)
 
-> ⚠️ This is an early build. Basic functionality to track browser activity on Safari is working, similar to the [Chrome version]([https://github.com/ActivityWatch/awesome-activitywatch?tab](https://github.com/ActivityWatch/aw-watcher-web)).
+> ⚠️ This is an early build. Basic functionality to track browser activity on Safari is working, similar to the Chrome version.
 
 The goal is to bring **ActivityWatch Web Watcher** support to Safari, allowing users to track time and activity within the Safari browser seamlessly.
 
